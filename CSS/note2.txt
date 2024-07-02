@@ -1,0 +1,85 @@
+Section
+<section> is a semantic HTML5 element used to group related content together. It's typically used for sections of a document, like chapters, headers, footers, or any other distinct group of content.
+
+
+Display: inline-block
+display: inline-block; is a CSS property value that makes an element generate a block-level box that flows with surrounding inline content. This value combines the characteristics of both inline and block elements, allowing you to set width and height properties while still having the element appear in the flow of text or inline elements.
+Characteristics of inline-block
+Behaves like an inline element: It does not start on a new line, and it sits alongside other elements.
+Behaves like a block element: You can set width and height, and it respects margin and padding settings.
+
+target:
+The target property is primarily used in HTML within the context of links and forms to specify where the linked document or form submission will be displayed. It is not a CSS property but rather an attribute used in HTML tags like <a>, <form>, and <base>.
+_blank: Opens the linked document in a new window or tab.
+_self: Opens the linked document in the same frame as it was clicked (default).
+_parent: Opens the linked document in the parent frame.
+_top: Opens the linked document in the full body of the window.
+framename: Opens the linked document in a named iframe.
+
+position: absolute
+
+position: absolute; is a CSS property value that positions an element relative to the nearest positioned ancestor (an element whose position is not static). If no such ancestor exists, it is positioned relative to the initial containing block (usually the <html> element). Elements with position: absolute are removed from the normal document flow, meaning they do not affect the layout of other elements and vice versa.
+
+
+difference b/w position absolute and relative
+
+Key Differences:
+Positioning Context:
+
+Absolute: Positioned relative to the nearest positioned ancestor or the initial containing block.
+Relative: Positioned relative to its original position in the document flow.
+Document Flow:
+
+Absolute: Removed from the document flow.
+Relative: Remains in the document flow.
+Impact on Other Elements:
+
+Absolute: Does not affect the positioning of other elements.
+Relative: Affects and is affected by the positioning of other elements.
+Use Cases:
+
+Absolute: Ideal for elements that need precise positioning without affecting other elements, like tooltips, popups, and custom dropdowns.
+Relative: Useful for making small positional adjustments to elements while keeping them in the document flow.
+
+transform:
+
+The transform property in CSS is used to apply 2D or 3D transformations to an element. This property allows you to translate, rotate, scale, and skew elements, making it a powerful tool for creating dynamic and interactive web designs.
+Translation Functions
+translate(x, y)
+translateX(x)
+translateY(y)
+Scaling Functions
+scale(x, y)
+scaleX(x)
+scaleY(y)
+Rotation Function
+rotate(angle)
+Skewing Functions
+skew(x-angle, y-angle)
+skewX(x-angle)
+skewY(y-angle)
+3D Transform Functions
+translateZ(z)
+translate3d(x, y, z)
+scaleZ(z)
+scale3d(x, y, z)
+rotateX(angle)
+rotateY(angle)
+rotateZ(angle)
+rotate3d(x, y, z, angle)
+perspective(n)
+Matrix Transform Functions
+matrix(a, b, c, d, e, f)
+matrix3d(a1, b1, c1, d1, a2, b2, c2, d2, a3, b3, c3, d3, a4, b4, c4, d4)
+
+
+
+display: grid prroperty
+The display: grid; property in CSS is used to create a grid container that can contain grid items. It's part of the CSS Grid Layout module, which allows for complex layouts to be created with ease.
+
+grid-template-columns: repeat(2,1fr); /*1fr = 255px*/
+
+/*rem =16px*/
+
+keyframes
+The @keyframes rule is a powerful feature in CSS for creating animations. By defining keyframes, you can specify how an element should look at various stages of the animation, and by applying the animation property to an element, you can control the timing, duration, and other aspects of the animation. This allows for the creation of complex and smooth animations on web pages.

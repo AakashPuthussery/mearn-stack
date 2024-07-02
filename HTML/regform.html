@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html kang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form>
+            <lable for="fn">First Name:</lable>
+            <input id="fn" type="text" placeholder="first Name"><br><br>
+            <label for="mn">Middle Name:</label>
+            <input id="mn" type="text" placeholder="Middle Name"><br><br>
+            <label for="ln">Last Name:</label>
+            <input id="ln" type="text" placeholder="Last Name"><br><br>
+            
+            <!--Email--> 
+            <label for="mail">E mail:</label>
+            <input id="mail" type="email" placeholder="ex:example@gmail.com"><br><br> 
+            <!--calender-->
+            <label for="cal">DOB</label>
+            <input id="cal" type="date"><br><br>
+
+            <!--Fil upload-->
+            <label for="file">Choose your file</label>
+            <input id="file" type="file"><br><br>
+
+            <!--Adress-->
+            <label for="add">Address: </label>
+            <textarea id="add" cols="50" rows="5"></textarea><br><br>
+
+            <!--radio buttons-->
+            <label for="gender">Gender</label><br>
+            
+            <input name="gender"id="male" type="radio">
+            <label for="male">Male</label><br>
+
+            <input name="gender"id="female" type="radio">
+            <label for="female">Female</label><br>
+
+            <input name="gender"id="other" type="radio">
+            <label for="other">Other</label><br><br>
+            
+
+            <!--select-->
+            <label>Status :</label>
+            <select>
+                <option value="Passed">Passed</option>
+                <option value="Failed" selected>Failed</option>
+                <option value="Pending">Pending</option>
+            </select><br><br>
+
+            <!--Checkbox-->
+            <input type="checkbox">
+            <label for="agree">I accept the terms and condition of the company</label><br><br>
+            <input type="checkbox">
+            <label for="disagree">I rejec the terms and conditions of the company</label><br><br>
+
+            <!--number-->
+            <label for="num">Number of attempts:</label>
+            <input id="num" type="number" min="1"max="5"><br><br>
+
+        </form>
+    </body>
+</html>

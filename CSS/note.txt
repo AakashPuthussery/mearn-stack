@@ -1,0 +1,196 @@
+CSS
+
+different ways of using CSS
+
+1. External
+2. Internal
+3. Inline
+
+
+----------------------
+1) Inline
+
+Syntax: style="propertiy:value;"
+-------------------------------------------
+2) Internal CSS
+it is used inside the head
+Syntax
+<style>
+    tagename{
+        property:value;
+    }
+-----------------------------------------
+
+3) Exteral CSS 
+
+filename.CSS
+tagename{
+    property:value
+}
+html
+<link rel="stylesheet" href="url">
+
+------------------------------------------------------------
+
+Priorites: inline> Internal> External
+1. Inline
+2. Internal CSS
+3. Exteral CSS
+
+Best:
+Exteral
+..................................
+
+Adv: of External
+Reusee the code
+Reduce the complexity
+Increase the readablity
+
+---------------------------------------------
+
+CSS Selectors
+
+1. Tag Selectors
+2. ID Seclector
+    uniquely styling
+    id style starts with #
+    in html we use id="name of the css"
+3. Class Selector
+    Group styling
+    in css it is denoted with .
+    in html it use class="name of the css"
+
+4. Universl Selector
+    in css it use *
+    it effect all th parts in the document
+
+
+-----------------------------------------------
+
+CSS Box Model
+space between border and browser is margin
+
+space between content and border is padding
+
+
+---------------------------------------------------
+
+Different border styles
+1. solid
+2. Dotted
+3. Dashed
+4. Grove
+5 Double
+6. Inset
+7. Outset
+
+---------------------------------------------------
+Margin order
+
+top>right>bottom>left
+
+
+---------------------------------------------------
+
+Defender
+In CSS, the descendant selector is used to select elements that are descendants of another element. It is written as two or more selectors separated by a space.
+
+ancestor descendant {
+  /* CSS properties */
+}
+
+
+---------------------------------------------------
+
+
+float
+
+The float property in CSS is used for positioning and formatting content, allowing elements to be taken out of the normal document flow and aligned to the left or right side of their containing element. This can be useful for wrapping text around images or creating column layouts.
+
+element {
+  float: left | right | none | inherit;
+}
+
+---------------------------------------------------
+
+height and width
+
+
+height: it not need to be mention in the code if it is not required
+
+Width: width need to be mentioned in percnetage it helps to maintain width in device width
+
+
+
+---------------------------------------------------
+
+
+1.Header tage
+2.background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dGWQgdRtlbW5aRFnN5K5pjTRSFsVWuGf7A&s');3.background-repeat: no-repeat;
+4.background-size: cover;
+    * contain
+    *cover
+
+5.background-attachment:"";
+    *fixed
+
+6. Opacity: used to reduce the brighteness
+    *1 is high
+
+7. positon: sticky
+which is used to stick the header image not move
+
+
+
+-----------------------------------------------------------
+vh- view port height
+1vh =19.2px
+
+-----------------------------------------------------------
+Display:felx  
+which makes its child elements (.item elements) align side by side.
+
+justify-content: space-between;
+ensures that there is space between the two items, pushing them to the far ends of the container.
+
+
+
+display: inline-blocks
+display: inline-block; is a CSS property that allows an element to be displayed as an inline-level block container. This means it will flow like an inline element (like span or a) but can have block-level properties (like width, height, margin, padding). It's often used when you want elements to sit next to each other horizontally and still be able to control their dimensions and spacing.
+
+
+
+pseduo classes:
+it is used to change the property of an element during an event
+
+:hover - Applies when the user designates an element (usually with a pointing device), but does not activate it.
+
+:active - Applies while an element is being activated by the user
+
+:focus - Applies when an element has focus (like when you click on an input field).
+
+:visited - Applies once the link has been visited by the user.
+
+:first-child - Applies to the first child of a specified element.
+
+:last-child - Applies to the last child of a specified element.
+
+:nth-child(n) - Applies to the nth child of a specified element.
+
+:not(selector) - Applies to every element that does not match the given selector.
+
+:first-of-type - Applies to the first element of its type within its parent.
+
+:last-of-type - Applies to the last element of its type within its parent.
+
+:nth-of-type(n) - Applies to the nth element of its type within its parent.
+
+:only-child - Applies to an element that is the only child of its parent.
+
+:only-of-type - Applies to an element that is the only one of its type within its parent.
+
+:empty - Applies to elements that have no children.
+
+:checked - Applies to radio buttons, checkboxes, and option elements that are selected.
+
+These pseudo-classes allow you to apply styles based on the dynamic state of an element, helping to create interactive and visually appealing designs.

@@ -1,0 +1,22 @@
+.div1{
+    background-color: white;
+    margin: -20px 0px 0px 275px;
+    .img{
+        width: 15%;
+    }
+    .p1{
+        font-size:25px;
+        padding: -20px ;
+        
+        font-weight: 0;
+        font-family: Arial Narrow;
+        opacity: 30%;
+    }
+}
+.divinner1{
+        width: 300px;
+        height:200px;
+        background-color:cadetblue;
+        padding-left: -75px;
+        padding-top: 
+}

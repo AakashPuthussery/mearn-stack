@@ -1,0 +1,15 @@
+p{
+    color:blue;
+    background-color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#par1{
+    color:yellow;
+}
+.par2{
+    color:aqua;
+}
+*{
+    color:blueviolet;
+    background-color: chocolate;
+}

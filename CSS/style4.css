@@ -1,0 +1,20 @@
+div{
+    width:400px;            
+    height:400px;
+    border: 2px solid rebeccapurple;
+    background-color: aqua;
+}
+.div1{
+    width:400px;            
+    height:400px;
+    border: 2px solid rebeccapurple;
+    background-color: rgb(255, 0, 166);
+    margin:-420px 0px 0px 420px;
+}
+.div2{
+    width:400px;            
+    height:400px;
+    border: 2px solid rebeccapurple;
+    background-color: rgb(47, 255, 0);
+    margin:-403px 0px 0px 840px;
+}
