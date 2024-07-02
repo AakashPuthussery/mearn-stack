@@ -1,0 +1,28 @@
+what is  bootstrap frame work?
+Bootstrap is a popular open-source front-end framework used for developing responsive and mobile-first websites and web applications. It provides a collection of CSS and JavaScript components that help streamline the development process, allowing developers to create visually appealing and functional designs with minimal effort.
+
+what is frame work?
+A framework in the context of software development is a structured platform or foundation that provides a set of tools, libraries, and best practices to streamline and standardize the development process. Frameworks are designed to support the creation and management of software applications by offering pre-built components, functions, and guidelines.
+
+Why cdn is copying and pasting in the html file?
+
+
+
+Container class
+which is used to margin left and right
+
+container-fluid
+which is used to make small margin in left and right of the page
+
+
+Floating-label
+which is used to set the placeholder
+
+
+
+
+
+
+
+
+
