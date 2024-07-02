@@ -18,16 +18,143 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <div class="container">
+        <div class="container" id="#container">
             <nav class="navbar">
                 <img id="logo" src="./images/IMG-20230727-WA0036.jpg" alt="logo">
                 <ul>
-                    <li class="listitem"><a class="links" href="">HOME</a></li>
-                    <li class="listitem"><a class="links"  href="">ABOUT</a></li>
-                    <li class="listitem"><a class="links" href="">SKILL</a></li>
-                    <li class="listitem"><a class="links" href="">CONTACT</a></li>
+                    <li class="listitem"><a class="links" href="#home">HOME</a></li>
+                    <li class="listitem"><a class="links"  href="#about">ABOUT</a></li>
+                    <li class="listitem"><a class="links" href="skill">SKILL</a></li>
+                    <li class="listitem"><a class="links" href="contact">CONTACT</a></li>
                 </ul>
             </nav>
+            <section id="home">
+                <div class="title">
+                    <h1 class="title-h1">I'm <span class="name">Theertha</span></h1>
+                    <p>This is my officila porfolio website to describe all<br> Details and work experince in the filed of Computer Sciencen</p>
+                    <a class="download" href="./images/Theertha_MCA_CV_Canva.pdf" target="_blank">DOWNLOAD CV</a>
+                </div>
+                <div class="title-img">
+                    <img  id="shape" src="./images/IMG-20230727-WA0039-removebg-preview.png">
+                    <img id="girl" src="./images/IMG-20230727-WA0037-removebg-preview.png">
+                </div>
+            </section>
+            <section id="about">
+                <div class="heading">
+                    <h2>About me</h2>
+                    <span>Introduction</span>
+                </div>
+                <div class="about-content">
+                    <!--image-->
+                    <div class="about-img">
+                        <img src="./images/IMG-20230727-WA0040.jpg" alt="not loaded properly">
+                    </div>
+                    <!--content-->
+                    <div class="about-details">
+                        <p>I am a Master's student in Computer Applications, eager to leverage my diverse skill set and adaptability to take on new challenges in various IT roles. Committed to delivering results and adding value to my team, I thrive in dynamic environments, quickly learn new skills, and take a proactive approach to problem-solving. Dedicated to continuous improvement, I am passionate about making meaningful contributions to both team and company objectives.</p>
+                        <div class="information">
+                            <div class="info-box">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Theertha K Rajendran</span>
+                            </div>
+                            <div class="info-box">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>8593879157</span>
+                            </div>
+                            <div class="info-box">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>theerthak09@gmail.com</span>
+                            </div>
+                            <div class="info-box">
+                                <i class="fa-brands fa-github"></i>
+                                <span><a href="https://github.com/theertharajendran" target="_blank">theertharajendran</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="Skills">
+                <div class="heading">
+                    <h2>SKILLS</h2>
+                    <span>My Skills</span>
+                </div>
+                <div class="skill-content">
+                    <!--progress bar-->
+                    <div class="progress-bar">
+                        <div class="bar-contianer">
+                            <h3>HTML</h3>
+                            <span>95%</span>
+                            <div class="base-bar"></div>
+                            <div class="base-bar html-bar"></div>
+                        </div>
+                        <div class="bar-contianer">
+                            <h3>JavaScriptL</h3>
+                            <span>88%</span>
+                            <div class="base-bar"></div>
+                            <div class="base-bar java-bar"></div>
+                        </div>
+                        <div class="bar-contianer">
+                            <h3>React</h3>
+                            <span>89%</span>
+                            <div class="base-bar"></div>
+                            <div class="base-bar react-bar"></div>
+                        </div>
+                        <div class="bar-contianer">
+                            <h3>CSS</h3>
+                            <span>97%</span>
+                            <div class="base-bar"></div>
+                            <div class="base-bar css-bar"></div>
+                        </div>
+                    </div>
+                    <!--image-->
+                    <div class="skill-img">
+                        <img src="./images/IMG-20230727-WA0038.jpg" alt="img not loaded properly">
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="heading">
+                    <h2>CONTACT</h2>
+                    <span>My Contacts</span>
+                </div>
+                <div class="icon-set">
+                    <div class="icon">
+                        <a href="">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <p style="text-align: center;font-weight: bold;">&copy;My Portfolio Design 2024, All Rights Reserved &reg; Theerthe K Rajendran</p>
+                <div class="up-arrow">
+                    <a href="#container">
+                        <i class="fa-solid fa-arrow-up fa-2x"></i>
+                    </a>
+                </div>
+
+            </footer>
         </div>
     </body>
 </html>
