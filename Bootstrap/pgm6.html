@@ -1,0 +1,56 @@
+<!--var() function to insert values to css varibales
+
+varible: to store data
+
+local scopem global scope varibales
+
+local scope varible:
+it is used in loaccly.
+it has limited access
+
+global scope varible:
+it is used to use through out the style sheet
+
+
+global varible syntax:
+
+:root{
+    --varible_name: value   # -- is mandatory and it is case sensitive
+}
+
+-->
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Documet</title>
+        
+        <!--global varible-->
+        <style>
+            :root{
+                --x: yellow;
+                --y: red;
+                --bg: black;
+            }
+            #para2{
+                --z: yellow;
+                color: var(--y);
+                background-color: var(--z)
+            }
+            p{
+                color: var(--x)
+            }
+            
+            body{
+                background-color: var(--bg);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Heading</h1>
+        <p id="para1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio culpa in non provident ducimus architecto molestias animi quae mollitia delectus voluptates modi ullam dicta quas sequi, harum vel rem molestiae.
+        </p>
+        <p id="para2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, laborum porro id exercitationem natus reprehenderit soluta? Ipsa mollitia natus magnam! Amet harum natus est ab eaque quam, doloribus voluptates. Sit?</p>
+    </body>
+</html>

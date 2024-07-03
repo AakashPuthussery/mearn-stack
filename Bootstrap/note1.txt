@@ -19,10 +19,28 @@ Floating-label
 which is used to set the placeholder
 
 
+var() function to insert values to css varibales
+
+varible: to store data
+
+local scopem global scope varibales
+
+local scope varible:
+it is used in loaccly.
+it has limited access
+
+global scope varible:
+it is used to use through out the style sheet
 
 
+global varible syntax:
+
+:root{
+    --varible_name: value   # -- is mandatory and it is case sensitive
+}
 
 
-
+gird in bootstrap
+================
 
 
